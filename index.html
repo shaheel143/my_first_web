@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KG Fashions | Online Clothing Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: gold;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd47') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            background: rgba(0,0,0,0.6);
+            padding: 15px;
+        }
+
+        .container {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product-card {
+            background: white;
+            width: 250px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product-card h3 {
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: gold;
+            color: black;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>KG Fashions</h1>
+    <p>Top-Notch Quality Delivered To Your Doorstep</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Upgrade Your Style With KG Fashions</h1>
+</section>
+
+<section class="container">
+    <h2>Our Featured Products</h2>
+
+    <div class="products">
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1520975918318-6f7a7f4f8f3e" alt="T-Shirt">
+            <h3>Premium T-Shirt</h3>
+            <p>High-quality cotton fabric for comfort and style.</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Hoodie">
+            <h3>Stylish Hoodie</h3>
+            <p>Stay warm and trendy with our top-notch hoodies.</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b" alt="Jeans">
+            <h3>Classic Jeans</h3>
+            <p>Perfect fit with premium denim material.</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 KG Fashions | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
